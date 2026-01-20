@@ -315,7 +315,7 @@ main ( int argc, char *argv[] )
      * Serve requests, CTRL-C to stop
      *************************************************************************/
     printf ( "Serving requests on topic '%s', Ctrl-C to stop.....\n", commandOpts.destinationName );
-    while ( msgReplied < 1) {
+    while ( 1 ) {
         SLEEP(1);
     }
 
